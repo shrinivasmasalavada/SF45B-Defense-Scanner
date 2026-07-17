@@ -100,7 +100,7 @@ Price is usually around:
 
 Advanced SF45/B microLiDAR projects 🔥
 
-![Image](https://images.openai.com/static-rsc-4/BAxavfngCAwDVxbNpH1GqGKYESeFeAyo6XrOw6j08BG_f4RlbV5KyF7eBiqC7VahtfumQO3ZWypthTcdlEb-Ey3rniELw9KhckreMaO7AZwAeX54a8x63_IGmvMxawUMrboMpNjz_F04kOkbWsdvfKUAofVgDfl3mu0rQ8WUpAJN4MCHUCpzUxiKePXlUOlC?purpose=fullsize)
+
 
 ![Image](https://images.openai.com/static-rsc-4/suBBENuMAuecGmlyglZPhDY6uLh1f2uyT578cM4wTJMxRpSXonD-Ch98fJcKv6xICj6DYeggMPils6ujAFvl38jQpVV8_OmC4pORKBW_S2pxEYN0yuPmYgxIRnF4MNTI3eIfdG32jICQlgdu0fVBayNS3m5Qj8-qif2jed8NzsjBUvAcBAyJlZjsf2YZVE4_?purpose=fullsize)
 
