@@ -1,4 +1,4 @@
-# SF45B-Defense-Scanner
+  # SF45B-Defense-Scanner
 LightWare LiDAR SF45/B scanning microLiDAR.
 The SF45/B microLiDAR is a very small **2D scanning LiDAR sensor** made by [LightWare LiDAR](https://lightwarelidar.com?utm_source=chatgpt.com) for:
 
@@ -384,4 +384,45 @@ The SF45/B can scan up to 320° and detect obstacles up to 50 meters while weigh
 ([DigiKey][1])
 
 [1]: https://www.digikey.com/en/product-highlight/l/lightware-lidar/sf45-b-microlidar-distance-sensor?utm_source=chatgpt.com "SF45/B microLiDAR® Distance Sensor- LightWare| DigiKey"
-[2]: https://lightwarelidar.com/shop/sf45-b-50-m/?utm_source=chatgpt.com "SF45/B (50 m) - World's Smallest & Lightest LiDAR"
+[2]: https://lightwarelidar.com/shop/sf45-b-50-m/?utm_source=chatgpt.com "SF45/B (50 m) - World's Smallest & Lightest LiDAR"           
+
+
+
+
+
+
+Python driver 
+
+ Object-oriented SF45B class
+ Auto port detection
+ Packet builder
+ CRC/Checksum calculation
+ Command encoder/decoder
+ distance reading
+ Angle reading
+ Scan rate control
+ Motor speed control
+ Error handling
+ Automatic reconnection
+ CSV logging
+ Real-time matplotlib visualization
+ Raspberry Pi 5 optimized implementation
+ Multi-threaded continuous scanning 
+
+
+ import serial
+
+ser = serial.Serial("/dev/serial0",115200)
+
+command = bytes([
+    0xAA,
+    0x55,
+    0x00,
+    0x01
+])
+
+ser.write(command)
+
+response = ser.read(128)
+
+print(response.hex())
